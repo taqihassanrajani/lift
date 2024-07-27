@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.pointer{
+    pointer-events: none;
+}
+
+.liftLeft{
+    width: 10%;
+    height: 20%;
+    background-color: blue;
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+.liftRight{
+    width: 10%;
+    height: 20%;
+    background-color: red;
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    left: 55%;
+}
+
+.liftLeftClose{
+    width: 10%;
+    height: 20%;
+    background-color: blue;
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    transition: left 2.4s ease; 
+}
+.liftRightClose{
+    width: 10%;
+    height: 20%;
+    background-color: red;
+    z-index: 2;
+    position: absolute;
+    left: 45%;
+    transition: left 2.4s ease; 
+}
+
+.liftLeftUpGround{
+    bottom: 20%;
+    transition: bottom 4.8s ease; 
+}
+.liftRightUpGround{
+    bottom: 20%;
+    transition: bottom 4.8s ease; 
+}
+
+.liftLeftUpFirst{
+    bottom: 40%;
+    transition: bottom 4.8s ease; 
+}
+.liftRightUpFirst{
+    bottom: 40%;
+    transition: bottom 4.8s ease; 
+}
+
+.liftLeftUpFSecond{
+    bottom: 60%;
+    transition: bottom 4.8s ease; 
+}
+.liftRightUpFSecond{
+    bottom: 60%;
+    transition: bottom 4.8s ease; 
+}
+
+.liftLeftUpFThird{
+    bottom: 80%;
+    transition: bottom 4.8s ease; 
+}
+.liftRightUpFThird{
+    bottom: 80%;
+    transition: bottom 4.8s ease; 
+}
+
+.liftLeftOpen{
+    transition: left 2.4s ease; 
+}
+.liftRightOpen{
+    transition: left 2.4s ease; 
+}
